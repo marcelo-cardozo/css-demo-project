@@ -24,3 +24,51 @@ body {
 }
 
 
+.main-header {
+    width: 100%;
+    padding: 8px 16px;
+    background-color: rgb(88, 175, 0);
+}
+
+.main-brand{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-brand__item{
+    color: #0e4f1f;
+    text-decoration: none; /* quita el "subrayado"*/
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-nav {
+    display: inline-block;
+    width: calc(100% - 75px);
+    text-align: right;
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0px 16px;
+}
+
+.main-nav__item > a {
+    color: #0e4f1f;
+    text-decoration: none; /* quita el "subrayado"*/
+}
+
+.main-nav__item > a:hover {
+    color: white;
+}
+
+.main-nav__item > a:active {
+    color: white;
+}
