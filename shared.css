@@ -27,6 +27,13 @@ body {
     text-decoration: none; /* quita el "subrayado"*/
     font-weight: bold;
     font-size: 22px;
+
+    height: 23px;
+    display: inline-block;
+}
+
+.main-brand__item > img {
+    height: 100%;
 }
 
 .main-nav {
