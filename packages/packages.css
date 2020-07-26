@@ -1,0 +1,53 @@
+main {
+    padding: 32px 0;
+}
+
+.plan {
+    width: 80%;
+    border: 2px solid #0e4f1f;
+    border-left: none;
+    margin: 16px 0;
+}
+
+.plan__link:hover, .plan__link:active {
+    border: 2px solid red;
+    box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.5);;
+}
+
+.plan__link {
+    padding: 32px 24px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.plan__title {
+    color: #0e4f1f;
+}
+
+.plan__subtitle {
+    color: #a1a1a1;
+}
+
+.plan__description {
+    padding: 16px;
+    border: #0e4f1f solid 2px;
+    background: white;
+    color: #0e4f1f;
+}
+
+#plus {
+    background: #aad3b0;
+}
+
+#free {
+    background: #d5ffdc;
+}
+
+#premium {
+    background: #0e4f1f;
+}
+
+#premium .plan__title {
+    color: white;
+}
