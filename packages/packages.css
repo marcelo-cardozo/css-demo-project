@@ -9,8 +9,12 @@ main {
     margin: 16px 0;
 }
 
-.plan__link:hover, .plan__link:active {
-    border: 2px solid red;
+.plan:hover, .plan:active {
+    /*
+        important is used for the #free plan which because of specifity, the border
+        is not set because is set with the #free selector
+    */
+    border: 2px solid red !important;
     box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.5);;
 }
 
@@ -42,6 +46,10 @@ main {
 
 #free {
     background: #d5ffdc;
+    border: 2px solid #0e4f1f;
+    border-right: none;
+    text-align: right;
+    float: right;
 }
 
 #premium {
@@ -50,4 +58,8 @@ main {
 
 #premium .plan__title {
     color: white;
+}
+
+.clearfix {
+    clear: both;
 }
