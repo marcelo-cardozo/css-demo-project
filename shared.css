@@ -197,3 +197,8 @@ body {
   font-size: 1.5rem;
 }
 
+.open {
+    /* se usa important debido a que selector es overrideado por "modal", 
+    debido al orden de los selectors */
+    display: block !important;
+}
