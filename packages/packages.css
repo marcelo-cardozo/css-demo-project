@@ -1,5 +1,5 @@
 main {
-    padding: 32px 0;
+    padding: 2rem 0;
 }
 
 .background {
@@ -14,7 +14,7 @@ main {
     width: 80%;
     border: 2px solid #0e4f1f;
     border-left: none;
-    margin: 16px 0;
+    margin: 1rem 0;
     position: relative;
     z-index: 0;
 }
@@ -29,7 +29,7 @@ main {
 }
 
 .plan__link {
-    padding: 32px 24px;
+    padding: 2rem 1.5rem;
     display: block;
     text-decoration: none;
     color: black;
@@ -39,11 +39,11 @@ main {
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: white;
     background-color: #ff5454;
-    padding: 8px;
-    margin: 20px;
+    padding: 0.5rem;
+    margin: 1.25rem;
     z-index: 10;
 }
 
@@ -56,7 +56,7 @@ main {
 }
 
 .plan__description {
-    padding: 16px;
+    padding: 1rem;
     border: #0e4f1f solid 2px;
     background: white;
     color: #0e4f1f;

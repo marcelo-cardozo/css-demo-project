@@ -21,7 +21,7 @@ body {
 .main-header {
     position: fixed;
     width: 100%;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     background-color: rgb(88, 175, 0);
     z-index: 1;
     top: 0;
@@ -37,9 +37,9 @@ body {
     color: #0e4f1f;
     text-decoration: none; /* quita el "subrayado"*/
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1.4rem;
 
-    height: 23px;
+    height: 1.4rem;
     display: inline-block;
 }
 
@@ -55,21 +55,21 @@ body {
 }
 
 .main-nav__items {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 
 .main-nav__item {
     display: inline-block;
-    margin: 0px 16px;
+    margin: 0 1rem;
 }
 
 .main-nav__item > a {
     color: #0e4f1f;
     text-decoration: none; /* quita el "subrayado"*/
     font-weight: bold;
-    padding: 3px 0;
+    padding: 0.2rem 0;
 }
 
 .main-nav__item > a:hover, .main-nav__item > a:active {
@@ -82,7 +82,7 @@ body {
 .main-nav__item--cta > a {
     color: white;
     background: #ff1b68;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     border-radius: 8px;
 }
 
@@ -95,8 +95,8 @@ body {
 .main-footer {
     background: black;
     color: white;
-    padding: 32px;
-    margin-top: 48px;
+    padding: 2rem;
+    margin-top: 3rem;
 }
 
 .main-footer__links {
@@ -108,7 +108,7 @@ body {
 
 .main-footer__link {
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 1rem;
 }
 
 .main-footer__link > a{
@@ -128,7 +128,7 @@ body {
     color: white;
     border: 1.5px solid #0e4f1f;
     font: inherit;
-    padding: 8px;
+    padding: 0.5rem;
     border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
