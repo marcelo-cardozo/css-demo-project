@@ -39,7 +39,7 @@ body {
 	/* quita el "subrayado"*/
 	font-weight: bold;
 	font-size: 1.4rem;
-	height: 1.4rem;
+	height: 2.4rem;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -71,21 +71,7 @@ body {
 }
 
 .main-nav {
-	display: inline-block;
-	width: calc(100% - 150px);
-	text-align: right;
-	vertical-align: middle;
-}
-
-.main-nav__items {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-}
-
-.main-nav__item {
-	display: inline-block;
-	margin: 0 1rem;
+	display: none;
 }
 
 .main-nav__item>a,
@@ -137,8 +123,7 @@ body {
 }
 
 .main-footer__link {
-	display: inline-block;
-	margin: 0 1rem;
+	margin: 2rem;
 }
 
 .main-footer__link>a {
@@ -204,4 +189,37 @@ body {
 	/* se usa important debido a que selector es overrideado por "modal", 
     debido al orden de los selectors */
 	display: block !important;
+}
+
+@media (min-width: 40rem) {
+	.main-nav {
+		display: inline-block;
+		width: calc(100% - 50px);
+		text-align: right;
+		vertical-align: middle;
+	}
+
+	.main-nav__items {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+
+	.main-nav__item {
+		display: inline-block;
+		margin: 0 1rem;
+	}
+
+	.main-brand .toggle-button {
+		display: none;
+	}
+
+	.main-brand__item {
+		font-size: 1.4rem;
+	}
+
+	.main-footer__link {
+		display: inline-block;
+		margin: 0 1rem;
+	}
 }
