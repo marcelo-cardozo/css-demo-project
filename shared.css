@@ -18,6 +18,10 @@ body {
 	display: none;
 }
 
+main {
+	margin-top: 4rem;
+}
+
 .main-header {
 	position: fixed;
 	width: 100%;
@@ -192,6 +196,12 @@ body {
 }
 
 @media (min-width: 40rem) {
+	main {
+		/*100vh - navbar height - footer height*/
+		min-height: calc(100vh - 3.4rem - 8.2rem);
+		margin-top: 3.4rem;
+	}
+
 	.main-nav {
 		display: inline-block;
 		width: calc(100% - 50px);
