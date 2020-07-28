@@ -88,3 +88,20 @@ main {
 .clearfix {
 	clear: both;
 }
+
+@media (min-width: 40rem){
+	main {
+		margin: 3rem auto;
+		max-width: 1300px;
+	}
+}
+
+@media (min-width: 1300px){
+	.plan {
+		border-left: 2px solid #0e4f1f;
+	}
+
+	#free {
+		border-right: 2px solid #0e4f1f;
+	}
+}
