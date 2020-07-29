@@ -130,7 +130,11 @@ main {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	text-align: center;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .main-footer__link {
@@ -246,8 +250,11 @@ main {
 		font-size: 1.4rem;
 	}
 
+	.main-footer__links {
+		flex-direction: row;
+	}
+
 	.main-footer__link {
-		display: inline-block;
 		margin: 0 1rem;
 	}
 }
