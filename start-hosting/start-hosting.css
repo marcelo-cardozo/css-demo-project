@@ -10,6 +10,9 @@ main {
 
 .signup-form{
     padding: 1.5rem;
+
+    display: grid;
+    grid-gap: 1rem 1rem;
 }
 
 .signup-form label {
@@ -20,7 +23,6 @@ main {
 .signup-form select, 
 .signup-form input {
     display: block;
-    margin-top: 1rem;
     width: 100%;
 }
 
@@ -72,13 +74,23 @@ main {
 
 .signup-form button[type="submit"] {
     display: block;
-    margin-top: 1rem;
 }
 
 @media (min-width: 40rem) {
     
     .signup-form {
-        max-width: 25rem;
+        max-width: 30rem;
         margin: 1rem auto;
+
+        grid-template-columns: 2fr 4fr;
+    }
+
+    .signup-form label[for="title"],
+    #title {
+        grid-column: span 2;
+    }
+
+    .signup-form .signup-form__checkbox {
+        grid-column: span 2;
     }
 }

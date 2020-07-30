@@ -9,6 +9,12 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
+	
+	height: 100vh;
+
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: auto fit-content(8.2rem);
 }
 
 .backdrop {
@@ -220,7 +226,7 @@ main {
 @media (min-width: 40rem) {
 	main {
 		/*100vh - navbar height - footer height*/
-		min-height: calc(100vh - 3.4rem - 8.2rem);
+		/*min-height: calc(100vh - 3.4rem - 8.2rem);*/
 		margin-top: 3.4rem;
 	}
 
