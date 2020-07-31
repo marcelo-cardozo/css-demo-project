@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+:root {
+	--primary-color: rgb(88, 175, 0);
+	--primary-dark-color: #0e4f1f;
+	--highlight-color: #ff1b68;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -34,7 +40,9 @@ main {
 
 .main-header {
 	position: fixed;
-			
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 	
 	flex-direction: row;
@@ -46,14 +54,14 @@ main {
 	
 	width: 100%;
 	padding: 0.5rem 1rem;
-	background-color: rgb(88, 175, 0);
+	background-color: var(--primary-color);
 	z-index: 2;
 	top: 0;
 	left: 0;
 }
 
 .main-brand__item {
-	color: #0e4f1f;
+	color: var(--primary-dark-color);
 	text-decoration: none;
 	/* quita el "subrayado"*/
 	font-weight: bold;
@@ -93,7 +101,7 @@ main {
 
 .main-nav__item>a,
 .mobile-nav__item>a {
-	color: #0e4f1f;
+	color: var(--primary-dark-color);
 	text-decoration: none;
 	/* quita el "subrayado"*/
 	font-weight: bold;
@@ -112,7 +120,7 @@ main {
 .main-nav__item--cta>a,
 .mobile-nav__item--cta>a {
 	color: white;
-	background: #ff1b68;
+	background: var(--highlight-color);
 	padding: 0.5rem 1rem;
 	border-radius: 8px;
 }
@@ -121,7 +129,7 @@ main {
 .main-nav__item--cta>a:active,
 .mobile-nav__item--cta>a:hover,
 .mobile-nav__item--cta>a:active {
-	color: #ff1b68;
+	color: var(--highlight-color);
 	background-color: white;
 }
 
@@ -158,9 +166,9 @@ main {
 }
 
 .button {
-	background: #0e4f1f;
+	background: var(--primary-dark-color);
 	color: white;
-	border: 1.5px solid #0e4f1f;
+	border: 1.5px solid var(--primary-dark-color);
 	font: inherit;
 	padding: 0.5rem;
 	border-radius: 8px;
@@ -170,7 +178,7 @@ main {
 }
 
 .button:hover {
-	color: #0e4f1f;
+	color: var(--primary-dark-color);
 	background: white;
 }
 
